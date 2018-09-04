@@ -17,6 +17,7 @@
         $v1 = $_GET["x"];
         $v2 = $_GET["y"];
 
+        
         echo "<h2>Valores recebidos: $v1 e $v2</h2>"; //Valores adicionados no link
         echo "O valor absoluto de $v2 e " . abs ($v2);  // Valor sem sinal negativo
         echo "<br>O valor de $v1<sup>$v2</sup> e " . pow($v1, $v2); // Potenciacao (sup utilizado em html para elevar um caracter
